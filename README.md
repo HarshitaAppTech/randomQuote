@@ -1,2 +1,2 @@
 # randomQuote
-Get a random quote from lukePeavey/quotable api
+Get a random quote from [lukePeavey/quotable](https://github.com/lukePeavey/quotable) api
