@@ -1,8 +1,8 @@
-package com.example.randomquote.di
+package com.harshitaapptech.randomquote.di
 
 import android.app.Application
-import com.example.randomquote.utils.Constants
-import com.example.randomquote.utils.PreferenceManager
+import com.harshitaapptech.randomquote.utils.Constants
+import com.harshitaapptech.randomquote.utils.PreferenceManager
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module

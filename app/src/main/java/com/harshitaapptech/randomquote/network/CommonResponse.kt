@@ -1,4 +1,4 @@
-package com.example.randomquote.network
+package com.harshitaapptech.randomquote.network
 
 class CommonResponseResource<T>(
     val status: CommonApiStatus, val data: T, val message: String?

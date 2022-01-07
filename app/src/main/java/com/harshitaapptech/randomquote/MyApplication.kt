@@ -1,11 +1,11 @@
-package com.example.randomquote
+package com.harshitaapptech.randomquote
 
 import android.app.Application
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ProcessLifecycleOwner
-import com.example.randomquote.utils.UtilsManager
+import com.harshitaapptech.randomquote.utils.UtilsManager
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp

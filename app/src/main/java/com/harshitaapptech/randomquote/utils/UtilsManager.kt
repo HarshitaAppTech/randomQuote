@@ -1,4 +1,4 @@
-package com.example.randomquote.utils
+package com.harshitaapptech.randomquote.utils
 
 import android.app.Activity
 import android.content.Context
@@ -15,7 +15,7 @@ import androidx.fragment.app.Fragment
 import androidx.transition.Fade
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
-import com.example.randomquote.BuildConfig
+import com.harshitaapptech.randomquote.BuildConfig
 
 object UtilsManager {
 

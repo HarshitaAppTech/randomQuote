@@ -1,4 +1,4 @@
-package com.example.randomquote
+package com.harshitaapptech.randomquote
 
 import org.junit.Test
 

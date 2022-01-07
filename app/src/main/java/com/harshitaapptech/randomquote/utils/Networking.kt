@@ -1,6 +1,6 @@
-package com.example.randomquote.utils
+package com.harshitaapptech.randomquote.utils
 
-import com.example.randomquote.network.QuoteAPI
+import com.harshitaapptech.randomquote.network.QuoteAPI
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

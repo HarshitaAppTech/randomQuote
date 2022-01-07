@@ -1,7 +1,7 @@
-package com.example.randomquote.network
+package com.harshitaapptech.randomquote.network
 
-import com.example.randomquote.model.CommonResponse
-import com.example.randomquote.utils.Constants
+import com.harshitaapptech.randomquote.model.CommonResponse
+import com.harshitaapptech.randomquote.utils.Constants
 import io.reactivex.Flowable
 import retrofit2.Response
 import retrofit2.http.GET

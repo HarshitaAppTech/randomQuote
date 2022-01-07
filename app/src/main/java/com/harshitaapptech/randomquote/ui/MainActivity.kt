@@ -1,11 +1,11 @@
-package com.example.randomquote.ui
+package com.harshitaapptech.randomquote.ui
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.randomquote.R
-import com.example.randomquote.databinding.ActivityMainBinding
+import com.harshitaapptech.randomquote.R
+import com.harshitaapptech.randomquote.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

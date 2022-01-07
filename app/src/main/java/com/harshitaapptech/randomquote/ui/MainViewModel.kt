@@ -1,9 +1,9 @@
-package com.example.randomquote.ui
+package com.harshitaapptech.randomquote.ui
 
 import androidx.lifecycle.*
-import com.example.randomquote.model.CommonResponse
-import com.example.randomquote.network.CommonResponseResource
-import com.example.randomquote.network.QuoteAPI
+import com.harshitaapptech.randomquote.model.CommonResponse
+import com.harshitaapptech.randomquote.network.CommonResponseResource
+import com.harshitaapptech.randomquote.network.QuoteAPI
 import dagger.hilt.android.lifecycle.HiltViewModel
 import io.reactivex.schedulers.Schedulers
 import kotlinx.coroutines.launch
