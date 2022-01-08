@@ -11,7 +11,6 @@ import dagger.hilt.android.HiltAndroidApp
 @HiltAndroidApp
 class MyApplication : Application(), LifecycleEventObserver {
 
-
     override fun onCreate() {
         super.onCreate()
         ProcessLifecycleOwner.get().lifecycle.addObserver(this)
@@ -34,6 +33,5 @@ class MyApplication : Application(), LifecycleEventObserver {
             }
         }
     }
-
 
 }
