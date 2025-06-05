@@ -8,7 +8,7 @@ This repository is periodically updated with help from [OpenAI's Codex](https://
 
 1. Clone the repository
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/HarshitaAppTech/randomQuote
    cd randomQuote
    ```
 2. Build the debug APK
