@@ -1,17 +1,35 @@
 # randomQuote
-Get a random quote from [lukePeavey/quotable](https://github.com/lukePeavey/quotable) api
 
-This app uses [hilt](https://github.com/googlecodelabs/android-hilt) for dependency injection
-I also tried my best to follow ViewModel pattern with data binding
-I’m also using Material3 (Material You) in this project
+RandomQuote is an **Android** app that fetches a quote from the [Quotable API](https://github.com/lukePeavey/quotable). It is written in Kotlin and makes use of **Hilt** for dependency injection, Retrofit for networking, and **ViewModel** with data binding for UI logic. The project also adopts Material Design 3.
 
-This project is also updated with help from [OpenAI's Codex](https://openai.com/blog/openai-codex). I'm taking advantage of this AI assistant for learning and experimenting with code changes.
-To learn more, check out the resources:
-- [OpenAI Codex announcement](https://openai.com/blog/openai-codex)
-- [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+This repository is periodically updated with help from [OpenAI's Codex](https://openai.com/blog/openai-codex) for learning and experimentation.
 
-###### **Features**
-- [x] Get random quote inside the app
-- [x] Refresh quote with UI
-- [ ] Get daily notification quote at a default time (10:00am)
-- [ ] Change time of daily notification using App UI
+## ⚡ Getting Started
+
+1. Clone the repository
+   ```bash
+   git clone <repo-url>
+   cd randomQuote
+   ```
+2. Build the debug APK
+   ```bash
+   ./gradlew assembleDebug
+   ```
+   Or open the project in Android Studio.
+
+The app currently targets **minSdk 23** and **targetSdk 32** (see `app/build.gradle`).
+
+## ✨ Features
+
+- Get a random quote inside the app
+- Refresh the quote with a pull‑to‑refresh gesture
+- *(Planned)* Daily quote notification at 10:00 AM
+- *(Planned)* Customizable notification time
+
+## 🤝 Contributing
+
+Contributions are welcome! Fork this repository and open a pull request with your improvements.
+
+## License
+
+No license file has been added yet. Feel free to suggest one if you intend to contribute.
